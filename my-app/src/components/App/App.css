@@ -1,0 +1,42 @@
+.App {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	margin: 0px 200px 0px 200px;
+	font-style: Lato;
+	letter-spacing: 2px;
+	font-size: 20px;
+	border-left: solid 1px black;
+	border-right: solid 1px black;
+	border-bottom: solid 1px black;
+	padding: 50px;
+}
+
+.instructions {
+	text-align: left;
+}
+
+button {
+	background-color: rgb(211, 178, 49);
+	width: 150px;
+	height: 50px;
+	border-radius: 5px;
+	opacity: 1;
+	transition: 0.3s;
+	display: inline-block;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.close-button {
+	background-color: #d64933;
+	width: 150px;
+	height: 50px;
+}
+
+button:hover {
+	opacity: 0.6;
+	cursor: pointer;
+}
